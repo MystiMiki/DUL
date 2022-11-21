@@ -10,12 +10,16 @@ Výzvy pro distribuované systémy:
 - Přesnost dat
 - Náklady na rozsah
 
-
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/NoSQLDatabases.jpg" alt="NoSQLDatabases" width="500" align="right"/>
 
 Dva produkty: 
 | Riak KV | Riak TS |
 | ----------- | ----------- |
 | distribuované úložiště dat NoSQL | Časové řady |
 
+
+
 ### Riak KV
-- typu klíč-hodnota
+- 
+
+

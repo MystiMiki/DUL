@@ -1,14 +1,21 @@
 ## Riak
-- distribuované úložiště dat NoSQL
-- typu klíč-hodnota
-
-    Výzvy pro distribuované systémy:
-
-    - Dostupnost dat
-    - Přesnost dat
-    - Náklady na rozsah
-    
 - prezentují se vysokou odolností a přeností dat
+- open-source i komerční
+- Basho Technologies
 
-Dva produkty:     
+
+Výzvy pro distribuované systémy:
+
+- Dostupnost dat
+- Přesnost dat
+- Náklady na rozsah
+
+
+
+Dva produkty: 
 | Riak KV | Riak TS |
+| ----------- | ----------- |
+| distribuované úložiště dat NoSQL | Časové řady |
+
+### Riak KV
+- typu klíč-hodnota

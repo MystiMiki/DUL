@@ -5,11 +5,12 @@
 - inspirováno Amazon DynamoDB
 
 
-Výzvy pro distribuované systémy:
+Hlavní bonusy Riak:
 
-- Dostupnost dat
-- Přesnost dat
-- Náklady na rozsah
+- 100% dostupnost
+- nekonečné škálování
+- zotavení po závadě
+- nízká latence
 
 Dva produkty: 
 | Riak KV | Riak TS |
@@ -17,7 +18,7 @@ Dva produkty:
 | distribuované úložiště dat NoSQL | časové řady |
 
 
-<img src="https://github.com/MystiMiki/DUL/blob/main/assets/OperationalSimplicity.jpg" alt="NoSQLDatabases" width="250"/>
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/OperationalSimplicity.jpg" alt="NoSQLDatabases" width="250" align="right"/>
 
 <br>
 
@@ -40,4 +41,9 @@ Základní operace - GET, PUT, DELETE
 Volba klíče - sémantický klíč (př. hudební aplikace, klíč: *autor_album_rok*)
 
 Lze ukládat jakýkoli typ obsahu: xml, json, yaml, binarní soubory
+
+Chris Mozolian v prezentaci, která proběhla na konferenci Devoxx 2013 v Británii, zmiňuje, že Riak není databáze malého rozsahu, přepokládá se, že už od začatku budete začínat aspoň se 4 uzly.
+
+
+
 

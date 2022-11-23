@@ -3,6 +3,7 @@
 - open-source i komerční
 - Basho Technologies
 - inspirováno Amazon DynamoDB
+- Erlang (multiparadigmatický programovací jazyk, specializovaný pro tvorbu distribuovaných, vysoce dostupných aplikací, odolných proti selhání)
 
 
 Hlavní bonusy Riak:
@@ -38,12 +39,12 @@ Dva produkty:
 
 Základní operace - GET, PUT, DELETE
 
-Volba klíče - sémantický klíč (př. hudební aplikace, klíč: *autor_album_rok*)
+Key - sémantický klíč (př. hudební aplikace, klíč: *autor_album_rok*)
 
-Lze ukládat jakýkoli typ obsahu: xml, json, yaml, binarní soubory
+Value - JSON, XML, HTML, dokumenty, binární soubory, obrázky a další
+
 
 Chris Mozolian v prezentaci, která proběhla na konferenci Devoxx 2013 v Británii, zmiňuje, že Riak není databáze malého rozsahu, přepokládá se, že už od začatku budete začínat aspoň se 4 uzly.
 
-
-
-
+### Provnání s Cassanrou
+Cassandra funguje nejlépe, když je vaše schéma předem definované. Nejlépe se hodí pro data, která lze považovat za soubor vlastností. Riak KV je nejlepší, když jsou data binární objekt, neprůhledný blob nebo JSON.

@@ -180,7 +180,10 @@ Vytvoříme si složku libovného názvu. Do této složky nahrajeme stažené s
 
 Nyní spustíme docker compose pomocí příkazu v terminálu: `docker compose up --build -d`. Druid by měl běžet na localhostovi na portu 8888.
 
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/tutorial-quickstart-01.png" alt="NoSQLDatabases"/>
 
+Pokud vše funguje můžeme začít práci s Druid.
 
+### Vytvoření kostky
 
   

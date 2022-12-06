@@ -184,4 +184,18 @@ Nyní spustíme docker compose pomocí příkazu v terminálu: `docker compose u
 
 Pokud vše funguje můžeme začít práci s Druid.
 
+### Nahrání dat z local disku
+
+**Nutné** nahrání do všech služeb!
+
+Pro zjistění id služeb: `docker container ls`
+
+```
+docker cp 2022_01_01-08.json 71271aaf70fa:/opt/druid/var
+docker cp 2022_01_01-08.json 574a1132c87b:/opt/druid/var
+docker cp 2022_01_01-08.json e9ea7675f7b3:/opt/druid/var
+docker cp 2022_01_01-08.json 60409c70bc11:/opt/druid/var
+docker cp 2022_01_01-08.json 47d0725cac6d:/opt/druid/var
+```
+
   

@@ -198,4 +198,11 @@ docker cp 2022_01_01-08.json 60409c70bc11:/opt/druid/var
 docker cp 2022_01_01-08.json 47d0725cac6d:/opt/druid/var
 ```
 
-  
+### Druid a Redash
+
+S pomocí Redash lze vizualizovat naše výsledky. 
+`SELECT * FROM druid.temperature`
+
+Ukázky:
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/Redash.PNG" alt="Redash"/>
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/RedashDashboard.PNG" alt="RedashDashboard"/>

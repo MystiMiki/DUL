@@ -186,6 +186,8 @@ Pokud vše funguje můžeme začít práci s Druid.
 
 ### Nahrání dat z local disku
 
+Data: [JSON](https://drive.google.com/file/d/1RxGnIzpmkmnM_KD-k0qtJSatzj_zCgyz/view?usp=share_link)
+
 **Nutné** nahrání do všech služeb!
 
 Pro zjistění id služeb: `docker container ls`

@@ -176,14 +176,12 @@ druid_processing_numMergeBuffers=2
 DRUID_LOG4J=<?xml version="1.0" encoding="UTF-8" ?><Configuration status="WARN"><Appenders><Console name="Console" target="SYSTEM_OUT"><PatternLayout pattern="%d{ISO8601} %p [%t] %c - %m%n"/></Console></Appenders><Loggers><Root level="info"><AppenderRef ref="Console"/></Root><Logger name="org.apache.druid.jetty.RequestLog" additivity="false" level="DEBUG"><AppenderRef ref="Console"/></Logger></Loggers></Configuration>
 ```
 #### 2. Vytvoření workspace a zprovoznení 
-Vytvoříme si složku libovného názvu. Do této složky nahrajeme stažené soubory `dcoker-compose.yml` a `environment`.
+Vytvoříme si složku libovného názvu. Do této složky nahrajeme stažené soubory `docker-compose.yml` a `environment`.
 
 Nyní spustíme docker compose pomocí příkazu v terminálu: `docker compose up --build -d`. Druid by měl běžet na localhostovi na portu 8888.
 
 <img src="https://github.com/MystiMiki/DUL/blob/main/assets/tutorial-quickstart-01.png" alt="NoSQLDatabases"/>
 
 Pokud vše funguje můžeme začít práci s Druid.
-
-### Vytvoření kostky
 
   

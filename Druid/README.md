@@ -208,3 +208,22 @@ S pomocí Redash lze vizualizovat naše výsledky.
 Ukázky:
 <img src="https://github.com/MystiMiki/DUL/blob/main/assets/Redash.PNG" alt="Redash"/>
 <img src="https://github.com/MystiMiki/DUL/blob/main/assets/RedashDashboard.PNG" alt="RedashDashboard"/>
+
+## Pár příkazů nakonec
+
+Počet záznamů
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/CountSelect.PNG" alt="CountOfEntries"/>
+
+Důležité sloupce
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/MainSelect.PNG" alt="ImportantColumns"/>
+
+Select s where
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/WhereSelect.PNG" alt="SelectWithWhere"/>
+
+Výběrem zobrazíte nejvíce komentářů podle země
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/CountSumSelect1.PNG" alt="SelectToViewMostEntriesByCountry"/>
+
+Vyberte pro zobrazení nejdelšího komentáře podle země
+<img src="https://github.com/MystiMiki/DUL/blob/main/assets/CountSumSelect2.PNG" alt="SelectToViewLongestCommentByCountry"/>
+
+

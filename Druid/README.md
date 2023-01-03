@@ -220,10 +220,10 @@ Důležité sloupce
 Select s where
 <img src="https://github.com/MystiMiki/DUL/blob/main/assets/WhereSelect.PNG" alt="SelectWithWhere"/>
 
-Výběrem zobrazíte nejvíce komentářů podle země
+Zobrazení nejvíce komentářů podle země
 <img src="https://github.com/MystiMiki/DUL/blob/main/assets/CountSumSelect1.PNG" alt="SelectToViewMostEntriesByCountry"/>
 
-Vyberte pro zobrazení nejdelšího komentáře podle země
+Zobrazení nejdelšího komentáře podle země
 <img src="https://github.com/MystiMiki/DUL/blob/main/assets/CountSumSelect2.PNG" alt="SelectToViewLongestCommentByCountry"/>
 
 
